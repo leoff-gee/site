@@ -16,6 +16,7 @@ html {
 }
 
 #illustrator{
+  background-image: url("../img/illustrate.png");
   background-size: cover;
   height: 100vh;
   background-color: white;
@@ -24,6 +25,15 @@ html {
 #storyteller{
   background-size: cover;
   height: 100vh;
+}
+
+.bg-white-6{
+  background-color: #fff !important;
+  opacity:0.6;
+}
+
+.full{
+  opacity: 1;
 }
 
 .logovis{
