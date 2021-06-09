@@ -22,18 +22,33 @@ html {
   background-color: white;
 }
 
-#storyteller{
+#canoe{
+  background-image: url("../img/Alg.svg");
   background-size: cover;
   height: 100vh;
+}
+#canoe2{
+  background-image: url("../img/alg2.svg");
+  background-size: cover;
+  height: 100vh;
+}
+#canoe3{
+  background-image: url("../img/canoe.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.h-page{
+  height: 100vh;
+}
+
+.position-sticky{
+  top:100px;
 }
 
 .bg-white-6{
   background-color: #fff !important;
   opacity:0.6;
-}
-
-.full{
-  opacity: 1;
 }
 
 .logovis{
