@@ -8,6 +8,11 @@ html {
   z-index:1;
 }
 
+.nav-link:hover, .nav-link:focus {
+  background-color: #ECECEC;
+  border-radius: 4px;
+}
+
 #mems{
   background-image: url("../img/hero.svg");
   background-size: cover;
@@ -22,13 +27,19 @@ html {
   background-color: white;
 }
 
+#projects{
+  background-color: #ECECEC;
+  background-size: cover;
+  height: 100vh;
+}
+
 #canoe{
   background-image: url("../img/Alg.svg");
   background-size: cover;
   height: 100vh;
 }
 #canoe2{
-  background-image: url("../img/alg2.svg");
+  background-image: url("../img/alg3.svg");
   background-size: cover;
   height: 100vh;
 }
@@ -38,17 +49,52 @@ html {
   height: 100vh;
 }
 
-.h-page{
+#about{
+  background-image: url("../img/canoe.jpg");
+  background-size: cover;
   height: 100vh;
 }
 
-.position-sticky{
-  top:100px;
+#about a{
+  color: darkgrey;
+}
+
+#foot {
+  height: 25vh;
+}
+
+#projects-algonquin {
+  background-image: url("../img/alg3.svg");
+  background-size: cover;
+  height: 50vh;
+}
+
+#projects-ceramics {
+  background-image: url("../img/pots.png");
+  background-size: cover;
+  height: 50vh;
+}
+
+#projects-sketchyscience {
+  background-image: url("../img/illustrate.png");
+  background-size: cover;
+  height: 50vh;
+}
+
+.bg-grey{
+  background-color: #ECECEC;
 }
 
 .bg-white-6{
-  background-color: #fff !important;
-  opacity:0.6;
+  background-color:  rgb(255,255,255,0.8) !important;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.bg-white-6-nb{
+  background-color:  rgb(255,255,255,0.8) !important;
+  border-radius: 8px;
 }
 
 .logovis{
@@ -107,4 +153,47 @@ html {
 
 .scrollbutton:hover {
   top: -10px;
+}
+
+.btnsm{
+  display:flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1.5px;
+  align-items: center;
+  float:left;
+  justify-content: center;
+}
+
+
+.btn-toolbar{
+  justify-content: center;
+}
+
+.square {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.illustratehands{
+  position:absolute;
+  top:140px;
+  z-index:1;
+}
+
+.btn-card{
+  background-color: #EFEFEF;
+  color: black;
+}
+
+.card-link{
+  opacity:0.8;
+}
+
+.card-link:hover{
+  opacity:1;
 }
