@@ -4,6 +4,7 @@
   <title>Geoffrey Lee</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/aos.css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -12,7 +13,8 @@
   <script src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/aos.js"></script>
 </head>
 <body>
   <nav class="navbar fixed-top navbar-expand-md navbar-light">
@@ -34,8 +36,8 @@
     <div class="container">
       <div class="row h-100">
         <div class="col-lg-6  my-auto">
-          <h1 class="display-2">Geoffrey Lee</h1>
-          <div class="px-3 py-3">
+          <h1 class="display-2" data-aos="fade-right">Geoffrey Lee</h1>
+          <div class="px-3 py-3" data-aos="fade-right" data-aos-delay="500">
             <p>is an experienced MEMS designer, illustrator, canoe enthusiast and amateur cook</p>
           </div>
         </div>
@@ -54,7 +56,7 @@
     <div class="container">
       <div class="row h-100">
         <div class="col-lg-6 my-auto">
-          <div class="px-3 py-3 bg-white">
+          <div class="px-3 py-3 bg-white" data-aos="zoom-in-right">
             <ul>
               <li>I have a B.A.Sc (<a href="https://uwaterloo.ca/nanotechnology-engineering/" target="_blank">Nanotechnology Engineering</a>) and an M.A.Sc (<a href="https://uwaterloo.ca/centre-integrated-rf-engineering/" target="_blank">Electrical Engineering</a>) from the <a href="https://www.uwaterloo.ca" target="_blank">University of Waterloo</a></li>
               <li>I am currently working at <a href="https://www.adhawkmicrosystems.com" target="_blank">AdHawk Microsystems</a> making MEMS based eye trackers</li>
@@ -96,4 +98,7 @@
     </div>
   </div>
 </footer>
+<script>
+  AOS.init();
+</script>
 </html>
