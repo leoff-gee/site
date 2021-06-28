@@ -233,3 +233,14 @@ h1{
 .resume-list li{
   margin-bottom: 1rem;
 }
+.work-list{
+  padding:0;
+}
+
+.work-list li::before{
+  margin-right: 5rem;
+}
+
+.icon-indent{
+  padding-left: 50px;
+}
