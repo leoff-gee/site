@@ -20,6 +20,12 @@ h1{
   border-radius: 4px;
 }
 
+@media (max-width: 576px) {
+  body {
+    padding-top: 32px;
+  }
+}
+
 .dl-r{
   border-style: solid;
   border-width: 1px;
